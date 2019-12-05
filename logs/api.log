@@ -1,0 +1,788 @@
+14:30:16.152 Watching directory: C:\Users\lktr\CMStesting\specs
+14:30:16.154 Found 1 files
+14:30:16.156 Initializing concepts cache with 0 concepts
+14:30:16.159 Initializing specs cache with 1 specs
+14:30:16.159 Adding specs from C:\Users\lktr\CMStesting\specs\example.spec
+14:30:16.159 Initializing steps cache with 1 steps
+14:30:16.159 Gauge daemon initialized and listening on port: 55102
+14:30:29.714 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"The word <word> has <expectedCount> vowels." > 
+14:30:29.717 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <word> has <expectedCount> vowels." parameters:"word" parameters:"expectedCount" > > 
+14:30:30.175 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Almost all words have vowels <wordsTable>" > 
+14:30:30.175 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <wordsTable>" parameters:"wordsTable" > > 
+14:30:30.718 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Vowels in English language are <vowelString>." > 
+14:30:30.718 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <vowelString>." parameters:"vowelString" > > 
+14:30:30.852 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Vowels in English language are \"aeiou\"." > 
+14:30:30.852 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <aeiou>." parameters:"aeiou" > > 
+14:30:30.853 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"The word \"gauge\" has \"3\" vowels." > 
+14:30:30.854 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <gauge> has <3> vowels." parameters:"gauge" parameters:"3" > > 
+14:30:30.859 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Almost all words have vowels" hasInlineTable:true > 
+14:30:30.859 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <table>" parameters:"table" > > 
+14:48:33.770 Spec file removed: C:\Users\lktr\CMStesting\specs\example.spec
+14:48:33.771 Spec file added / modified: C:\Users\lktr\CMStesting\specs\example.spec
+09:38:17.263 Unable to send analytics data, timed out
+10:14:17.606 Spec file added / modified: C:\Users\lktr\CMStesting\specs\test1.spec
+10:15:30.068 Spec file removed: C:\Users\lktr\CMStesting\specs\test1.spec
+10:15:30.071 Spec file added / modified: C:\Users\lktr\CMStesting\specs\test1.spec
+10:15:34.991 Spec file removed: C:\Users\lktr\CMStesting\specs\test1.spec
+10:15:34.994 Spec file added / modified: C:\Users\lktr\CMStesting\specs\test1.spec
+10:15:37.902 Spec file removed: C:\Users\lktr\CMStesting\specs\test1.spec
+10:15:37.905 Spec file added / modified: C:\Users\lktr\CMStesting\specs\test1.spec
+10:17:10.613 Spec file removed: C:\Users\lktr\CMStesting\specs\test1.spec
+10:17:10.616 Spec file added / modified: C:\Users\lktr\CMStesting\specs\test1.spec
+10:22:09.702 Spec file removed: C:\Users\lktr\CMStesting\specs\test1.spec
+10:22:09.705 Spec file added / modified: C:\Users\lktr\CMStesting\specs\test1.spec
+10:27:00.673 Spec file removed: C:\Users\lktr\CMStesting\specs\test1.spec
+10:27:00.673 Spec file added / modified: C:\Users\lktr\CMStesting\specs\test1.spec
+10:27:03.243 Spec file removed: C:\Users\lktr\CMStesting\specs\test1.spec
+10:27:03.245 Spec file added / modified: C:\Users\lktr\CMStesting\specs\test1.spec
+10:27:07.907 Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+10:27:07.907 Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <table>" parameters:"table" > allSteps:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <aeiou>." parameters:"aeiou" > allSteps:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <gauge> has <3> vowels." parameters:"gauge" parameters:"3" > > 
+10:27:07.913 Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+10:27:07.913 Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+10:27:10.741 Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+10:27:10.741 Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <table>" parameters:"table" > allSteps:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <aeiou>." parameters:"aeiou" > allSteps:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <gauge> has <3> vowels." parameters:"gauge" parameters:"3" > > 
+10:27:10.742 Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+10:27:10.742 Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+10:27:10.997 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Op" > 
+10:27:10.999 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Op" parameterizedStepValue:"Op" > > 
+10:27:11.006 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Op" > 
+10:27:11.007 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Op" parameterizedStepValue:"Op" > > 
+10:27:11.743 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Ope" > 
+10:27:11.743 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Ope" parameterizedStepValue:"Ope" > > 
+10:27:12.056 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Open" > 
+10:27:12.060 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Open" parameterizedStepValue:"Open" > > 
+10:27:13.997 Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+10:27:13.997 Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <aeiou>." parameters:"aeiou" > allSteps:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <gauge> has <3> vowels." parameters:"gauge" parameters:"3" > allSteps:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <table>" parameters:"table" > > 
+10:27:13.997 Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+10:27:13.998 Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+10:27:14.242 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Open Qa" > 
+10:27:14.242 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Open Qa" parameterizedStepValue:"Open Qa" > > 
+10:27:14.307 Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+10:27:14.307 Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <aeiou>." parameters:"aeiou" > allSteps:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <gauge> has <3> vowels." parameters:"gauge" parameters:"3" > allSteps:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <table>" parameters:"table" > > 
+10:27:14.309 Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+10:27:14.309 Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+10:27:14.516 Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+10:27:14.517 Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <gauge> has <3> vowels." parameters:"gauge" parameters:"3" > allSteps:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <table>" parameters:"table" > allSteps:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <aeiou>." parameters:"aeiou" > > 
+10:27:14.517 Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+10:27:14.517 Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+10:27:14.571 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Open Qat" > 
+10:27:14.572 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Open Qat" parameterizedStepValue:"Open Qat" > > 
+10:27:14.579 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Open Qat" > 
+10:27:14.580 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Open Qat" parameterizedStepValue:"Open Qat" > > 
+10:27:15.156 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Open Qata" > 
+10:27:15.156 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Open Qata" parameterizedStepValue:"Open Qata" > > 
+10:27:15.470 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Open Qatar" > 
+10:27:15.470 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Open Qatar" parameterizedStepValue:"Open Qatar" > > 
+10:27:16.452 Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+10:27:16.452 Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <aeiou>." parameters:"aeiou" > allSteps:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <gauge> has <3> vowels." parameters:"gauge" parameters:"3" > allSteps:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <table>" parameters:"table" > > 
+10:27:16.453 Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+10:27:16.453 Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+10:27:16.624 Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+10:27:16.624 Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <aeiou>." parameters:"aeiou" > allSteps:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <gauge> has <3> vowels." parameters:"gauge" parameters:"3" > allSteps:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <table>" parameters:"table" > > 
+10:27:16.625 Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+10:27:16.625 Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+10:27:16.699 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Open Qatar Ai" > 
+10:27:16.704 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Open Qatar Ai" parameterizedStepValue:"Open Qatar Ai" > > 
+10:27:16.710 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Open Qatar Ai" > 
+10:27:16.710 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Open Qatar Ai" parameterizedStepValue:"Open Qatar Ai" > > 
+10:27:16.711 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Open Qatar Ai" > 
+10:27:16.711 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Open Qatar Ai" parameterizedStepValue:"Open Qatar Ai" > > 
+10:27:17.296 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Open Qatar Air" > 
+10:27:17.296 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Open Qatar Air" parameterizedStepValue:"Open Qatar Air" > > 
+10:27:17.296 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Open Qatar Air" > 
+10:27:17.297 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Open Qatar Air" parameterizedStepValue:"Open Qatar Air" > > 
+10:27:17.355 Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+10:27:17.356 Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <table>" parameters:"table" > allSteps:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <aeiou>." parameters:"aeiou" > allSteps:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <gauge> has <3> vowels." parameters:"gauge" parameters:"3" > > 
+10:27:17.356 Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+10:27:17.356 Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+10:27:17.462 Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+10:27:17.462 Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <aeiou>." parameters:"aeiou" > allSteps:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <gauge> has <3> vowels." parameters:"gauge" parameters:"3" > allSteps:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <table>" parameters:"table" > > 
+10:27:17.463 Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+10:27:17.463 Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+10:27:17.637 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Open Qatar Airw" > 
+10:27:17.646 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Open Qatar Airw" parameterizedStepValue:"Open Qatar Airw" > > 
+10:27:17.656 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Open Qatar Airw" > 
+10:27:17.656 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Open Qatar Airw" parameterizedStepValue:"Open Qatar Airw" > > 
+10:27:17.662 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Open Qatar Airw" > 
+10:27:17.663 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Open Qatar Airw" parameterizedStepValue:"Open Qatar Airw" > > 
+10:27:17.663 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Open Qatar Airw" > 
+10:27:17.664 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Open Qatar Airw" parameterizedStepValue:"Open Qatar Airw" > > 
+10:27:17.664 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Open Qatar Airw" > 
+10:27:17.665 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Open Qatar Airw" parameterizedStepValue:"Open Qatar Airw" > > 
+10:27:18.015 Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+10:27:18.015 Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <table>" parameters:"table" > allSteps:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <aeiou>." parameters:"aeiou" > allSteps:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <gauge> has <3> vowels." parameters:"gauge" parameters:"3" > > 
+10:27:18.026 Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+10:27:18.026 Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+10:27:18.309 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Open Qatar Airways" > 
+10:27:18.312 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Open Qatar Airways" parameterizedStepValue:"Open Qatar Airways" > > 
+10:27:20.045 Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+10:27:20.046 Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <table>" parameters:"table" > allSteps:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <aeiou>." parameters:"aeiou" > allSteps:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <gauge> has <3> vowels." parameters:"gauge" parameters:"3" > > 
+10:27:20.046 Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+10:27:20.047 Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+10:27:20.297 Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+10:27:20.297 Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <gauge> has <3> vowels." parameters:"gauge" parameters:"3" > allSteps:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <table>" parameters:"table" > allSteps:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <aeiou>." parameters:"aeiou" > > 
+10:27:20.298 Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+10:27:20.298 Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+10:27:20.604 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Open Qatar Airways we" > 
+10:27:20.605 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Open Qatar Airways we" parameterizedStepValue:"Open Qatar Airways we" > > 
+10:27:20.953 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Open Qatar Airways web" > 
+10:27:20.953 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Open Qatar Airways web" parameterizedStepValue:"Open Qatar Airways web" > > 
+10:27:21.016 Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+10:27:21.016 Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <table>" parameters:"table" > allSteps:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <aeiou>." parameters:"aeiou" > allSteps:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <gauge> has <3> vowels." parameters:"gauge" parameters:"3" > > 
+10:27:21.016 Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+10:27:21.016 Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+10:27:21.871 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Open Qatar Airways webs" > 
+10:27:21.871 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Open Qatar Airways webs" parameterizedStepValue:"Open Qatar Airways webs" > > 
+10:27:21.871 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Open Qatar Airways webs" > 
+10:27:21.871 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Open Qatar Airways webs" parameterizedStepValue:"Open Qatar Airways webs" > > 
+10:27:21.927 Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+10:27:21.927 Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <aeiou>." parameters:"aeiou" > allSteps:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <gauge> has <3> vowels." parameters:"gauge" parameters:"3" > allSteps:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <table>" parameters:"table" > > 
+10:27:21.927 Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+10:27:21.927 Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+10:27:22.050 Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+10:27:22.051 Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <aeiou>." parameters:"aeiou" > allSteps:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <gauge> has <3> vowels." parameters:"gauge" parameters:"3" > allSteps:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <table>" parameters:"table" > > 
+10:27:22.051 Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+10:27:22.051 Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+10:27:22.186 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Open Qatar Airways websit" > 
+10:27:22.223 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Open Qatar Airways websit" parameterizedStepValue:"Open Qatar Airways websit" > > 
+10:27:22.224 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Open Qatar Airways websit" > 
+10:27:22.225 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Open Qatar Airways websit" parameterizedStepValue:"Open Qatar Airways websit" > > 
+10:27:22.225 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Open Qatar Airways websit" > 
+10:27:22.225 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Open Qatar Airways websit" parameterizedStepValue:"Open Qatar Airways websit" > > 
+10:27:22.226 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Open Qatar Airways websit" > 
+10:27:22.227 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Open Qatar Airways websit" parameterizedStepValue:"Open Qatar Airways websit" > > 
+10:27:22.227 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Open Qatar Airways websit" > 
+10:27:22.227 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Open Qatar Airways websit" parameterizedStepValue:"Open Qatar Airways websit" > > 
+10:27:22.759 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Open Qatar Airways website" > 
+10:27:22.760 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Open Qatar Airways website" parameterizedStepValue:"Open Qatar Airways website" > > 
+10:27:22.794 Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+10:27:22.794 Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <aeiou>." parameters:"aeiou" > allSteps:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <gauge> has <3> vowels." parameters:"gauge" parameters:"3" > allSteps:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <table>" parameters:"table" > > 
+10:27:22.794 Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+10:27:22.794 Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+10:33:09.572 Spec file removed: C:\Users\lktr\CMStesting\specs\test1.spec
+10:33:09.575 Spec file added / modified: C:\Users\lktr\CMStesting\specs\test1.spec
+10:43:17.280 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Open Qatar Airways website \"\"" > 
+10:43:17.283 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Open Qatar Airways website {}" parameterizedStepValue:"Open Qatar Airways website <>" parameters:"" > > 
+10:43:17.284 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Open Qatar Airways website \"\"" > 
+10:43:17.291 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Open Qatar Airways website {}" parameterizedStepValue:"Open Qatar Airways website <>" parameters:"" > > 
+10:43:17.292 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Open Qatar Airways website \"\"" > 
+10:43:17.292 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Open Qatar Airways website {}" parameterizedStepValue:"Open Qatar Airways website <>" parameters:"" > > 
+10:43:17.293 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Open Qatar Airways website \"\"" > 
+10:43:17.293 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Open Qatar Airways website {}" parameterizedStepValue:"Open Qatar Airways website <>" parameters:"" > > 
+10:43:37.563 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Open Qatar Airways website \"Qatar_URL\"" > 
+10:43:37.565 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Open Qatar Airways website {}" parameterizedStepValue:"Open Qatar Airways website <Qatar_URL>" parameters:"Qatar_URL" > > 
+10:43:37.573 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Open Qatar Airways website \"Qatar_URL\"" > 
+10:43:37.575 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Open Qatar Airways website {}" parameterizedStepValue:"Open Qatar Airways website <Qatar_URL>" parameters:"Qatar_URL" > > 
+10:43:37.577 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Open Qatar Airways website \"Qatar_URL\"" > 
+10:43:37.579 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Open Qatar Airways website {}" parameterizedStepValue:"Open Qatar Airways website <Qatar_URL>" parameters:"Qatar_URL" > > 
+10:43:39.367 Spec file removed: C:\Users\lktr\CMStesting\specs\test1.spec
+10:43:39.368 Spec file added / modified: C:\Users\lktr\CMStesting\specs\test1.spec
+10:43:47.027 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Open Qatar Airways website " > 
+10:43:47.029 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Open Qatar Airways website" parameterizedStepValue:"Open Qatar Airways website" > > 
+10:43:47.029 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Open Qatar Airways website " > 
+10:43:47.030 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Open Qatar Airways website" parameterizedStepValue:"Open Qatar Airways website" > > 
+10:43:47.675 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Open Qatar Airways website <>" > 
+10:43:47.676 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Open Qatar Airways website {}" parameterizedStepValue:"Open Qatar Airways website <>" parameters:"" > > 
+10:43:48.876 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Open Qatar Airways website <Qatar_URL>" > 
+10:43:48.876 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Open Qatar Airways website {}" parameterizedStepValue:"Open Qatar Airways website <Qatar_URL>" parameters:"Qatar_URL" > > 
+11:07:24.718 Watching directory: C:\Users\lktr\CMStesting\specs
+11:07:24.721 Found 2 files
+11:07:24.729 Initializing concepts cache with 0 concepts
+11:07:24.736 Initializing specs cache with 2 specs
+11:07:24.736 Adding specs from C:\Users\lktr\CMStesting\specs\example.spec
+11:07:24.736 Adding specs from C:\Users\lktr\CMStesting\specs\test1.spec
+11:07:24.736 Initializing steps cache with 2 steps
+11:07:24.737 Gauge daemon initialized and listening on port: 50953
+11:18:10.857 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Open Qatar Airways website <Qatar_URL>" > 
+11:18:10.859 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Open Qatar Airways website {}" parameterizedStepValue:"Open Qatar Airways website <Qatar_URL>" parameters:"Qatar_URL" > > 
+11:18:10.860 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Open Qatar Airways website \"Qatar_URL\"" > 
+11:18:10.860 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Open Qatar Airways website {}" parameterizedStepValue:"Open Qatar Airways website <Qatar_URL>" parameters:"Qatar_URL" > > 
+11:18:10.891 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Almost all words have vowels" hasInlineTable:true > 
+11:18:10.891 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <table>" parameters:"table" > > 
+11:18:10.892 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Vowels in English language are \"aeiou\"." > 
+11:18:10.892 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <aeiou>." parameters:"aeiou" > > 
+11:18:10.893 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"The word \"gauge\" has \"3\" vowels." > 
+11:18:10.894 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <gauge> has <3> vowels." parameters:"gauge" parameters:"3" > > 
+11:18:16.888 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Vowels in English language are <vowelString>." > 
+11:18:16.889 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <vowelString>." parameters:"vowelString" > > 
+11:18:16.984 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Vowels in English language are <vowelString>." > 
+11:18:16.984 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <vowelString>." parameters:"vowelString" > > 
+11:18:17.010 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"The word <word> has <expectedCount> vowels." > 
+11:18:17.011 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <word> has <expectedCount> vowels." parameters:"word" parameters:"expectedCount" > > 
+11:18:17.011 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"The word <word> has <expectedCount> vowels." > 
+11:18:17.012 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <word> has <expectedCount> vowels." parameters:"word" parameters:"expectedCount" > > 
+11:18:17.119 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Almost all words have vowels <wordsTable>" > 
+11:18:17.119 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <wordsTable>" parameters:"wordsTable" > > 
+14:24:57.701 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Open Qatar Airways website <ur>" > 
+14:24:57.701 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Open Qatar Airways website {}" parameterizedStepValue:"Open Qatar Airways website <ur>" parameters:"ur" > > 
+14:24:57.702 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Open Qatar Airways website <ur>" > 
+14:24:57.703 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Open Qatar Airways website {}" parameterizedStepValue:"Open Qatar Airways website <ur>" parameters:"ur" > > 
+14:24:58.084 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Open Qatar Airways website <url>" > 
+14:24:58.084 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Open Qatar Airways website {}" parameterizedStepValue:"Open Qatar Airways website <url>" parameters:"url" > > 
+11:23:22.659 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Open Qatar Airways website \"url\"" > 
+11:23:22.659 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Open Qatar Airways website {}" parameterizedStepValue:"Open Qatar Airways website <url>" parameters:"url" > > 
+11:23:22.664 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Open Qatar Airways website \"url\"" > 
+11:23:22.664 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Open Qatar Airways website {}" parameterizedStepValue:"Open Qatar Airways website <url>" parameters:"url" > > 
+11:23:22.665 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Open Qatar Airways website \"url\"" > 
+11:23:22.667 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Open Qatar Airways website {}" parameterizedStepValue:"Open Qatar Airways website <url>" parameters:"url" > > 
+11:23:22.668 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Open Qatar Airways website \"url\"" > 
+11:23:22.668 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Open Qatar Airways website {}" parameterizedStepValue:"Open Qatar Airways website <url>" parameters:"url" > > 
+11:23:22.692 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Open Qatar Airways website \"url\"" > 
+11:23:22.692 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Open Qatar Airways website {}" parameterizedStepValue:"Open Qatar Airways website <url>" parameters:"url" > > 
+11:23:22.693 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Open Qatar Airways website \"url\"" > 
+11:23:22.693 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Open Qatar Airways website {}" parameterizedStepValue:"Open Qatar Airways website <url>" parameters:"url" > > 
+11:23:23.870 Spec file removed: C:\Users\lktr\CMStesting\specs\test1.spec
+11:23:23.874 Spec file added / modified: C:\Users\lktr\CMStesting\specs\test1.spec
+11:29:56.068 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Open Qatar Airways website \"https://www.qatarairways.com/en-gb/homepage.html\"" > 
+11:29:56.069 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Open Qatar Airways website {}" parameterizedStepValue:"Open Qatar Airways website <https://www.qatarairways.com/en-gb/homepage.html>" parameters:"https://www.qatarairways.com/en-gb/homepage.html" > > 
+11:29:58.660 Spec file removed: C:\Users\lktr\CMStesting\specs\test1.spec
+11:29:58.665 Spec file added / modified: C:\Users\lktr\CMStesting\specs\test1.spec
+11:33:31.964 Spec file removed: C:\Users\lktr\CMStesting\specs\test1.spec
+11:33:31.966 Spec file added / modified: C:\Users\lktr\CMStesting\specs\test1.spec
+11:40:27.740 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Open Qatar Airways website \"https://www.qatarairways.com/en-gb/homepage.html/\"" > 
+11:40:27.741 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Open Qatar Airways website {}" parameterizedStepValue:"Open Qatar Airways website <https://www.qatarairways.com/en-gb/homepage.html/>" parameters:"https://www.qatarairways.com/en-gb/homepage.html/" > > 
+11:40:27.743 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Open Qatar Airways website \"https://www.qatarairways.com/en-gb/homepage.html/\"" > 
+11:40:27.743 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Open Qatar Airways website {}" parameterizedStepValue:"Open Qatar Airways website <https://www.qatarairways.com/en-gb/homepage.html/>" parameters:"https://www.qatarairways.com/en-gb/homepage.html/" > > 
+11:40:27.746 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Open Qatar Airways website \"https://www.qatarairways.com/en-gb/homepage.html/\"" > 
+11:40:27.746 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Open Qatar Airways website {}" parameterizedStepValue:"Open Qatar Airways website <https://www.qatarairways.com/en-gb/homepage.html/>" parameters:"https://www.qatarairways.com/en-gb/homepage.html/" > > 
+11:40:28.532 Spec file removed: C:\Users\lktr\CMStesting\specs\test1.spec
+11:40:28.533 Spec file added / modified: C:\Users\lktr\CMStesting\specs\test1.spec
+11:40:36.239 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Open Qatar Airways website <https://www.qatarairways.com/en-gb/homepage.html/>" > 
+11:40:36.240 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Open Qatar Airways website {}" parameterizedStepValue:"Open Qatar Airways website <https://www.qatarairways.com/en-gb/homepage.html/>" parameters:"https://www.qatarairways.com/en-gb/homepage.html/" > > 
+12:07:25.053 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Open Qat Airways website \"https://www.qatarairways.com/en-gb/homepage.html/\"" > 
+12:07:25.055 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Open Qat Airways website {}" parameterizedStepValue:"Open Qat Airways website <https://www.qatarairways.com/en-gb/homepage.html/>" parameters:"https://www.qatarairways.com/en-gb/homepage.html/" > > 
+12:07:25.974 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Open Airways website \"https://www.qatarairways.com/en-gb/homepage.html/\"" > 
+12:07:25.974 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Open Airways website {}" parameterizedStepValue:"Open Airways website <https://www.qatarairways.com/en-gb/homepage.html/>" parameters:"https://www.qatarairways.com/en-gb/homepage.html/" > > 
+12:07:38.471 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Open Airways website <https://www.qatarairways.com/en-gb/homepage.html/>" > 
+12:07:38.471 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Open Airways website {}" parameterizedStepValue:"Open Airways website <https://www.qatarairways.com/en-gb/homepage.html/>" parameters:"https://www.qatarairways.com/en-gb/homepage.html/" > > 
+12:07:38.485 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Open Airways website <https://www.qatarairways.com/en-gb/homepage.html/>" > 
+12:07:38.485 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Open Airways website {}" parameterizedStepValue:"Open Airways website <https://www.qatarairways.com/en-gb/homepage.html/>" parameters:"https://www.qatarairways.com/en-gb/homepage.html/" > > 
+12:07:58.559 Spec file removed: C:\Users\lktr\CMStesting\specs\test1.spec
+12:07:58.565 Spec file added / modified: C:\Users\lktr\CMStesting\specs\test1.spec
+15:15:57.167 Unable to send analytics data, timed out
+12:09:42.370 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Open Airways website \"Qatar_URL\"" > 
+12:09:42.372 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Open Airways website {}" parameterizedStepValue:"Open Airways website <Qatar_URL>" parameters:"Qatar_URL" > > 
+12:09:43.644 Spec file removed: C:\Users\lktr\CMStesting\specs\test1.spec
+12:09:43.645 Spec file added / modified: C:\Users\lktr\CMStesting\specs\test1.spec
+12:09:52.878 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Open Airways website <Qatar_URL>" > 
+12:09:52.879 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Open Airways website {}" parameterizedStepValue:"Open Airways website <Qatar_URL>" parameters:"Qatar_URL" > > 
+12:57:04.313 Watching directory: C:\Users\lktr\CMStesting\specs
+12:57:04.314 Found 2 files
+12:57:04.321 Initializing concepts cache with 0 concepts
+12:57:04.325 Initializing specs cache with 2 specs
+12:57:04.325 Adding specs from C:\Users\lktr\CMStesting\specs\test1.spec
+12:57:04.325 Adding specs from C:\Users\lktr\CMStesting\specs\example.spec
+12:57:04.325 Initializing steps cache with 2 steps
+12:57:04.325 Gauge daemon initialized and listening on port: 64858
+13:00:24.129 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Open Airways website \"Qatar_URL\"" > 
+13:00:24.130 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Open Airways website {}" parameterizedStepValue:"Open Airways website <Qatar_URL>" parameters:"Qatar_URL" > > 
+13:00:24.130 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Open Airways website \"Qatar_URL\"" > 
+13:00:24.130 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Open Airways website {}" parameterizedStepValue:"Open Airways website <Qatar_URL>" parameters:"Qatar_URL" > > 
+13:00:24.130 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Open Airways website \"Qatar_URL\"" > 
+13:00:24.130 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Open Airways website {}" parameterizedStepValue:"Open Airways website <Qatar_URL>" parameters:"Qatar_URL" > > 
+13:00:24.131 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Open Airways website \"Qatar_URL\"" > 
+13:00:24.131 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Open Airways website {}" parameterizedStepValue:"Open Airways website <Qatar_URL>" parameters:"Qatar_URL" > > 
+13:00:24.131 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Open Airways website \"Qatar_URL\"" > 
+13:00:24.131 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Open Airways website {}" parameterizedStepValue:"Open Airways website <Qatar_URL>" parameters:"Qatar_URL" > > 
+13:00:24.131 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Open Airways website \"Qatar_URL\"" > 
+13:00:24.131 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Open Airways website {}" parameterizedStepValue:"Open Airways website <Qatar_URL>" parameters:"Qatar_URL" > > 
+13:00:24.131 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Open Airways website \"Qatar_URL\"" > 
+13:00:24.131 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Open Airways website {}" parameterizedStepValue:"Open Airways website <Qatar_URL>" parameters:"Qatar_URL" > > 
+13:00:24.212 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Open Airways website <Qatar_URL>" > 
+13:00:24.212 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Open Airways website {}" parameterizedStepValue:"Open Airways website <Qatar_URL>" parameters:"Qatar_URL" > > 
+13:00:24.214 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Open Airways website <Qatar_URL>" > 
+13:00:24.215 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Open Airways website {}" parameterizedStepValue:"Open Airways website <Qatar_URL>" parameters:"Qatar_URL" > > 
+13:00:24.215 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Open Airways website <Qatar_URL>" > 
+13:00:24.215 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Open Airways website {}" parameterizedStepValue:"Open Airways website <Qatar_URL>" parameters:"Qatar_URL" > > 
+13:00:24.216 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Open Airways website <Qatar_URL>" > 
+13:00:24.216 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Open Airways website {}" parameterizedStepValue:"Open Airways website <Qatar_URL>" parameters:"Qatar_URL" > > 
+13:00:24.216 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Open Airways website <Qatar_URL>" > 
+13:00:24.216 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Open Airways website {}" parameterizedStepValue:"Open Airways website <Qatar_URL>" parameters:"Qatar_URL" > > 
+13:00:24.217 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Open Airways website <Qatar_URL>" > 
+13:00:24.217 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Open Airways website {}" parameterizedStepValue:"Open Airways website <Qatar_URL>" parameters:"Qatar_URL" > > 
+13:00:24.223 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Open Airways website <Qatar_URL>" > 
+13:00:24.224 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Open Airways website {}" parameterizedStepValue:"Open Airways website <Qatar_URL>" parameters:"Qatar_URL" > > 
+13:56:06.822 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Almost all words have vowels" hasInlineTable:true > 
+13:56:06.822 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <table>" parameters:"table" > > 
+13:56:06.823 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Almost all words have vowels" hasInlineTable:true > 
+13:56:06.823 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <table>" parameters:"table" > > 
+13:56:06.823 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Vowels in English language are \"aeiou\"." > 
+13:56:06.824 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <aeiou>." parameters:"aeiou" > > 
+13:56:06.824 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Vowels in English language are \"aeiou\"." > 
+13:56:06.824 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <aeiou>." parameters:"aeiou" > > 
+13:56:06.824 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"The word \"gauge\" has \"3\" vowels." > 
+13:56:06.824 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <gauge> has <3> vowels." parameters:"gauge" parameters:"3" > > 
+13:56:06.825 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"The word \"gauge\" has \"3\" vowels." > 
+13:56:06.825 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <gauge> has <3> vowels." parameters:"gauge" parameters:"3" > > 
+08:52:22.352 Unable to send analytics data, timed out
+13:17:19.803 Spec file removed: C:\Users\lktr\CMStesting\specs\test1.spec
+13:17:19.804 Spec file added / modified: C:\Users\lktr\CMStesting\specs\test1.spec
+13:17:25.394 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+13:17:25.402 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+13:17:25.619 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Vowels in English language are <vowelString>." > 
+13:17:25.619 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <vowelString>." parameters:"vowelString" > > 
+13:17:25.619 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"The word <word> has <expectedCount> vowels." > 
+13:17:25.619 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <word> has <expectedCount> vowels." parameters:"word" parameters:"expectedCount" > > 
+13:17:25.620 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Almost all words have vowels <wordsTable>" > 
+13:17:25.620 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <wordsTable>" parameters:"wordsTable" > > 
+13:17:25.626 Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+13:17:25.626 Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <gauge> has <3> vowels." parameters:"gauge" parameters:"3" > allSteps:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <table>" parameters:"table" > allSteps:<stepValue:"Open Airways website {}" parameterizedStepValue:"Open Airways website <Qatar_URL>" parameters:"Qatar_URL" > allSteps:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <aeiou>." parameters:"aeiou" > > 
+13:17:25.631 Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+13:17:25.631 Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+13:17:25.896 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Lo" > 
+13:17:25.896 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Lo" parameterizedStepValue:"Lo" > > 
+13:17:26.198 Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+13:17:26.198 Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <table>" parameters:"table" > allSteps:<stepValue:"Open Airways website {}" parameterizedStepValue:"Open Airways website <Qatar_URL>" parameters:"Qatar_URL" > allSteps:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <aeiou>." parameters:"aeiou" > allSteps:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <gauge> has <3> vowels." parameters:"gauge" parameters:"3" > > 
+13:17:26.199 Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+13:17:26.199 Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+13:17:26.431 Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+13:17:26.431 Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"Open Airways website {}" parameterizedStepValue:"Open Airways website <Qatar_URL>" parameters:"Qatar_URL" > allSteps:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <aeiou>." parameters:"aeiou" > allSteps:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <gauge> has <3> vowels." parameters:"gauge" parameters:"3" > allSteps:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <table>" parameters:"table" > > 
+13:17:26.431 Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+13:17:26.431 Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+13:17:26.490 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Logi" > 
+13:17:26.490 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Logi" parameterizedStepValue:"Logi" > > 
+13:17:26.674 Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+13:17:26.674 Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"Open Airways website {}" parameterizedStepValue:"Open Airways website <Qatar_URL>" parameters:"Qatar_URL" > allSteps:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <aeiou>." parameters:"aeiou" > allSteps:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <gauge> has <3> vowels." parameters:"gauge" parameters:"3" > allSteps:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <table>" parameters:"table" > > 
+13:17:26.674 Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+13:17:26.675 Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+13:17:26.921 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Login" > 
+13:17:26.921 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Login" parameterizedStepValue:"Login" > > 
+13:17:27.648 Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+13:17:27.648 Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <gauge> has <3> vowels." parameters:"gauge" parameters:"3" > allSteps:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <table>" parameters:"table" > allSteps:<stepValue:"Open Airways website {}" parameterizedStepValue:"Open Airways website <Qatar_URL>" parameters:"Qatar_URL" > allSteps:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <aeiou>." parameters:"aeiou" > > 
+13:17:27.649 Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+13:17:27.649 Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+13:17:27.791 Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+13:17:27.791 Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <aeiou>." parameters:"aeiou" > allSteps:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <gauge> has <3> vowels." parameters:"gauge" parameters:"3" > allSteps:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <table>" parameters:"table" > allSteps:<stepValue:"Open Airways website {}" parameterizedStepValue:"Open Airways website <Qatar_URL>" parameters:"Qatar_URL" > > 
+13:17:27.791 Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+13:17:27.791 Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+13:17:27.943 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Login to" > 
+13:17:27.943 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Login to" parameterizedStepValue:"Login to" > > 
+13:17:27.943 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Login to" > 
+13:17:27.943 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Login to" parameterizedStepValue:"Login to" > > 
+13:17:28.813 Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+13:17:28.813 Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"Open Airways website {}" parameterizedStepValue:"Open Airways website <Qatar_URL>" parameters:"Qatar_URL" > allSteps:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <aeiou>." parameters:"aeiou" > allSteps:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <gauge> has <3> vowels." parameters:"gauge" parameters:"3" > allSteps:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <table>" parameters:"table" > > 
+13:17:28.813 Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+13:17:28.813 Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+13:17:29.105 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Login to a" > 
+13:17:29.105 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Login to a" parameterizedStepValue:"Login to a" > > 
+13:17:32.718 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Login t" > 
+13:17:32.718 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Login t" parameterizedStepValue:"Login t" > > 
+13:17:34.360 Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+13:17:34.360 Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <aeiou>." parameters:"aeiou" > allSteps:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <gauge> has <3> vowels." parameters:"gauge" parameters:"3" > allSteps:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <table>" parameters:"table" > allSteps:<stepValue:"Open Airways website {}" parameterizedStepValue:"Open Airways website <Qatar_URL>" parameters:"Qatar_URL" > > 
+13:17:34.391 Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+13:17:34.391 Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+13:17:34.547 Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+13:17:34.547 Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <gauge> has <3> vowels." parameters:"gauge" parameters:"3" > allSteps:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <table>" parameters:"table" > allSteps:<stepValue:"Open Airways website {}" parameterizedStepValue:"Open Airways website <Qatar_URL>" parameters:"Qatar_URL" > allSteps:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <aeiou>." parameters:"aeiou" > > 
+13:17:34.607 Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+13:17:34.607 Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+13:17:34.744 Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+13:17:34.744 Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <aeiou>." parameters:"aeiou" > allSteps:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <gauge> has <3> vowels." parameters:"gauge" parameters:"3" > allSteps:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <table>" parameters:"table" > allSteps:<stepValue:"Open Airways website {}" parameterizedStepValue:"Open Airways website <Qatar_URL>" parameters:"Qatar_URL" > > 
+13:17:34.745 Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+13:17:34.745 Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+13:17:35.112 Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+13:17:35.113 Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <aeiou>." parameters:"aeiou" > allSteps:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <gauge> has <3> vowels." parameters:"gauge" parameters:"3" > allSteps:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <table>" parameters:"table" > allSteps:<stepValue:"Open Airways website {}" parameterizedStepValue:"Open Airways website <Qatar_URL>" parameters:"Qatar_URL" > > 
+13:17:35.113 Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+13:17:35.113 Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+13:17:35.325 Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+13:17:35.325 Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <aeiou>." parameters:"aeiou" > allSteps:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <gauge> has <3> vowels." parameters:"gauge" parameters:"3" > allSteps:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <table>" parameters:"table" > allSteps:<stepValue:"Open Airways website {}" parameterizedStepValue:"Open Airways website <Qatar_URL>" parameters:"Qatar_URL" > > 
+13:17:35.326 Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+13:17:35.326 Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+13:17:37.873 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"L" > 
+13:17:37.874 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"L" parameterizedStepValue:"L" > > 
+13:17:38.426 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+13:17:38.426 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+13:17:38.651 Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+13:17:38.652 Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"Open Airways website {}" parameterizedStepValue:"Open Airways website <Qatar_URL>" parameters:"Qatar_URL" > allSteps:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <aeiou>." parameters:"aeiou" > allSteps:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <gauge> has <3> vowels." parameters:"gauge" parameters:"3" > allSteps:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <table>" parameters:"table" > > 
+13:17:38.652 Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+13:17:38.652 Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+13:17:39.909 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Sig" > 
+13:17:39.910 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Sig" parameterizedStepValue:"Sig" > > 
+13:17:40.117 Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+13:17:40.117 Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <gauge> has <3> vowels." parameters:"gauge" parameters:"3" > allSteps:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <table>" parameters:"table" > allSteps:<stepValue:"Open Airways website {}" parameterizedStepValue:"Open Airways website <Qatar_URL>" parameters:"Qatar_URL" > allSteps:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <aeiou>." parameters:"aeiou" > > 
+13:17:40.118 Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+13:17:40.118 Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+13:17:40.412 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Sign" > 
+13:17:40.412 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Sign" parameterizedStepValue:"Sign" > > 
+13:17:41.267 Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+13:17:41.267 Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <aeiou>." parameters:"aeiou" > allSteps:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <gauge> has <3> vowels." parameters:"gauge" parameters:"3" > allSteps:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <table>" parameters:"table" > allSteps:<stepValue:"Open Airways website {}" parameterizedStepValue:"Open Airways website <Qatar_URL>" parameters:"Qatar_URL" > > 
+13:17:41.267 Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+13:17:41.267 Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+13:17:41.561 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Signu" > 
+13:17:41.561 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Signu" parameterizedStepValue:"Signu" > > 
+13:17:41.561 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Signu" > 
+13:17:41.562 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Signu" parameterizedStepValue:"Signu" > > 
+13:17:41.798 Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+13:17:41.798 Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <gauge> has <3> vowels." parameters:"gauge" parameters:"3" > allSteps:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <table>" parameters:"table" > allSteps:<stepValue:"Open Airways website {}" parameterizedStepValue:"Open Airways website <Qatar_URL>" parameters:"Qatar_URL" > allSteps:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <aeiou>." parameters:"aeiou" > > 
+13:17:41.798 Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+13:17:41.799 Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+13:17:42.090 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Signup" > 
+13:17:42.090 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Signup" parameterizedStepValue:"Signup" > > 
+13:20:50.071 Spec file removed: C:\Users\lktr\CMStesting\specs\test1.spec
+13:20:50.072 Spec file added / modified: C:\Users\lktr\CMStesting\specs\test1.spec
+13:20:56.019 Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+13:20:56.019 Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <aeiou>." parameters:"aeiou" > allSteps:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <gauge> has <3> vowels." parameters:"gauge" parameters:"3" > allSteps:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <table>" parameters:"table" > allSteps:<stepValue:"Open Airways website {}" parameterizedStepValue:"Open Airways website <Qatar_URL>" parameters:"Qatar_URL" > allSteps:<stepValue:"Signup" parameterizedStepValue:"Signup" > > 
+13:20:56.019 Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+13:20:56.019 Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+13:20:57.959 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"pOpen Airways website \"Qatar_URL\"" > 
+13:20:57.959 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"pOpen Airways website {}" parameterizedStepValue:"pOpen Airways website <Qatar_URL>" parameters:"Qatar_URL" > > 
+13:20:57.959 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"pOpen Airways website \"Qatar_URL\"" > 
+13:20:57.959 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"pOpen Airways website {}" parameterizedStepValue:"pOpen Airways website <Qatar_URL>" parameters:"Qatar_URL" > > 
+13:22:17.049 Watching directory: C:\Users\lktr\CMStesting\specs
+13:22:17.050 Found 2 files
+13:22:17.063 Initializing concepts cache with 0 concepts
+13:22:17.067 Initializing specs cache with 2 specs
+13:22:17.067 Adding specs from C:\Users\lktr\CMStesting\specs\test1.spec
+13:22:17.067 Adding specs from C:\Users\lktr\CMStesting\specs\example.spec
+13:22:17.067 Initializing steps cache with 2 steps
+13:22:17.067 Gauge daemon initialized and listening on port: 56753
+13:22:29.613 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Signup" > 
+13:22:29.622 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Signup" parameterizedStepValue:"Signup" > > 
+13:22:29.628 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Open Airways website \"Qatar_URL\"" > 
+13:22:29.628 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Open Airways website {}" parameterizedStepValue:"Open Airways website <Qatar_URL>" parameters:"Qatar_URL" > > 
+13:22:30.766 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Open Airways website <Qatar_URL>" > 
+13:22:30.766 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Open Airways website {}" parameterizedStepValue:"Open Airways website <Qatar_URL>" parameters:"Qatar_URL" > > 
+13:22:30.767 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Open Airways website <Qatar_URL>" > 
+13:22:30.767 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Open Airways website {}" parameterizedStepValue:"Open Airways website <Qatar_URL>" parameters:"Qatar_URL" > > 
+13:22:30.769 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Open Airways website <Qatar_URL>" > 
+13:22:30.774 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Open Airways website {}" parameterizedStepValue:"Open Airways website <Qatar_URL>" parameters:"Qatar_URL" > > 
+13:22:30.775 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Open Airways website <Qatar_URL>" > 
+13:22:30.777 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Open Airways website {}" parameterizedStepValue:"Open Airways website <Qatar_URL>" parameters:"Qatar_URL" > > 
+13:22:30.778 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Open Airways website <Qatar_URL>" > 
+13:22:30.778 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Open Airways website {}" parameterizedStepValue:"Open Airways website <Qatar_URL>" parameters:"Qatar_URL" > > 
+13:22:30.780 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Vowels in English language are <vowelString>." > 
+13:22:30.780 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <vowelString>." parameters:"vowelString" > > 
+13:22:30.781 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Vowels in English language are <vowelString>." > 
+13:22:30.781 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <vowelString>." parameters:"vowelString" > > 
+13:22:30.781 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Vowels in English language are <vowelString>." > 
+13:22:30.782 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <vowelString>." parameters:"vowelString" > > 
+13:22:30.787 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Vowels in English language are <vowelString>." > 
+13:22:30.787 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <vowelString>." parameters:"vowelString" > > 
+13:22:30.788 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"The word <word> has <expectedCount> vowels." > 
+13:22:30.788 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <word> has <expectedCount> vowels." parameters:"word" parameters:"expectedCount" > > 
+13:22:30.789 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"The word <word> has <expectedCount> vowels." > 
+13:22:30.789 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <word> has <expectedCount> vowels." parameters:"word" parameters:"expectedCount" > > 
+13:22:30.790 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"The word <word> has <expectedCount> vowels." > 
+13:22:30.791 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <word> has <expectedCount> vowels." parameters:"word" parameters:"expectedCount" > > 
+13:22:30.792 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Vowels in English language are <vowelString>." > 
+13:22:30.792 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <vowelString>." parameters:"vowelString" > > 
+13:22:30.805 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Almost all words have vowels <wordsTable>" > 
+13:22:30.806 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <wordsTable>" parameters:"wordsTable" > > 
+13:22:30.808 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Almost all words have vowels <wordsTable>" > 
+13:22:30.813 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <wordsTable>" parameters:"wordsTable" > > 
+13:22:30.814 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Almost all words have vowels <wordsTable>" > 
+13:22:30.814 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <wordsTable>" parameters:"wordsTable" > > 
+13:22:30.815 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"The word <word> has <expectedCount> vowels." > 
+13:22:30.815 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <word> has <expectedCount> vowels." parameters:"word" parameters:"expectedCount" > > 
+13:22:30.816 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Almost all words have vowels <wordsTable>" > 
+13:22:30.816 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <wordsTable>" parameters:"wordsTable" > > 
+13:22:42.728 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Almost all words have vowels" hasInlineTable:true > 
+13:22:42.729 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <table>" parameters:"table" > > 
+13:22:42.729 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Vowels in English language are \"aeiou\"." > 
+13:22:42.729 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <aeiou>." parameters:"aeiou" > > 
+13:22:42.730 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"The word \"gauge\" has \"3\" vowels." > 
+13:22:42.730 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <gauge> has <3> vowels." parameters:"gauge" parameters:"3" > > 
+13:44:39.519 Watching directory: C:\Users\lktr\CMStesting\specs
+13:44:39.521 Found 2 files
+13:44:39.533 Initializing concepts cache with 0 concepts
+13:44:39.536 Initializing specs cache with 2 specs
+13:44:39.536 Adding specs from C:\Users\lktr\CMStesting\specs\test1.spec
+13:44:39.536 Adding specs from C:\Users\lktr\CMStesting\specs\example.spec
+13:44:39.536 Initializing steps cache with 2 steps
+13:44:39.536 Gauge daemon initialized and listening on port: 51023
+13:44:51.253 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Signup" > 
+13:44:51.279 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Signup" parameterizedStepValue:"Signup" > > 
+13:44:51.293 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Open Airways website \"Qatar_URL\"" > 
+13:44:51.293 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Open Airways website {}" parameterizedStepValue:"Open Airways website <Qatar_URL>" parameters:"Qatar_URL" > > 
+13:44:52.220 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Open Airways website <Qatar_URL>" > 
+13:44:52.221 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Open Airways website {}" parameterizedStepValue:"Open Airways website <Qatar_URL>" parameters:"Qatar_URL" > > 
+13:44:52.234 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Open Airways website <Qatar_URL>" > 
+13:44:52.235 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Open Airways website {}" parameterizedStepValue:"Open Airways website <Qatar_URL>" parameters:"Qatar_URL" > > 
+13:46:09.049 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Almost all words have vowels" hasInlineTable:true > 
+13:46:09.049 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <table>" parameters:"table" > > 
+13:46:09.050 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Almost all words have vowels" hasInlineTable:true > 
+13:46:09.050 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <table>" parameters:"table" > > 
+13:46:09.050 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Vowels in English language are \"aeiou\"." > 
+13:46:09.050 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <aeiou>." parameters:"aeiou" > > 
+13:46:09.051 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Vowels in English language are \"aeiou\"." > 
+13:46:09.051 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <aeiou>." parameters:"aeiou" > > 
+13:46:09.052 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"The word \"gauge\" has \"3\" vowels." > 
+13:46:09.052 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <gauge> has <3> vowels." parameters:"gauge" parameters:"3" > > 
+13:46:09.059 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"The word \"gauge\" has \"3\" vowels." > 
+13:46:09.063 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <gauge> has <3> vowels." parameters:"gauge" parameters:"3" > > 
+14:14:26.313 Spec file removed: C:\Users\lktr\CMStesting\specs\test1.spec
+14:14:26.314 Spec file added / modified: C:\Users\lktr\CMStesting\specs\test1.spec
+14:14:38.609 Spec file removed: C:\Users\lktr\CMStesting\specs\test1.spec
+14:14:38.613 Spec file added / modified: C:\Users\lktr\CMStesting\specs\test1.spec
+14:17:27.366 Spec file removed: C:\Users\lktr\CMStesting\specs\test1.spec
+14:17:27.367 Spec file added / modified: C:\Users\lktr\CMStesting\specs\test1.spec
+14:17:49.300 Spec file removed: C:\Users\lktr\CMStesting\specs\test1.spec
+14:17:49.301 Spec file added / modified: C:\Users\lktr\CMStesting\specs\test1.spec
+14:17:49.607 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Signup" hasInlineTable:true > 
+14:17:49.607 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Signup {}" parameterizedStepValue:"Signup <table>" parameters:"table" > > 
+14:17:49.614 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Vowels in English language are <vowelString>." > 
+14:17:49.614 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <vowelString>." parameters:"vowelString" > > 
+14:17:49.614 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"The word <word> has <expectedCount> vowels." > 
+14:17:49.615 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <word> has <expectedCount> vowels." parameters:"word" parameters:"expectedCount" > > 
+14:17:49.615 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Almost all words have vowels <wordsTable>" > 
+14:17:49.615 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <wordsTable>" parameters:"wordsTable" > > 
+14:17:58.982 Spec file removed: C:\Users\lktr\CMStesting\specs\test1.spec
+14:17:58.983 Spec file added / modified: C:\Users\lktr\CMStesting\specs\test1.spec
+14:18:10.688 Spec file removed: C:\Users\lktr\CMStesting\specs\test1.spec
+14:18:10.690 Spec file added / modified: C:\Users\lktr\CMStesting\specs\test1.spec
+14:22:11.832 Spec file removed: C:\Users\lktr\CMStesting\specs\test1.spec
+14:22:11.833 Spec file added / modified: C:\Users\lktr\CMStesting\specs\test1.spec
+14:22:27.699 Spec file removed: C:\Users\lktr\CMStesting\specs\test1.spec
+14:22:27.700 Spec file added / modified: C:\Users\lktr\CMStesting\specs\test1.spec
+14:22:31.909 Spec file removed: C:\Users\lktr\CMStesting\specs\test1.spec
+14:22:31.910 Spec file added / modified: C:\Users\lktr\CMStesting\specs\test1.spec
+14:25:19.010 Spec file removed: C:\Users\lktr\CMStesting\specs\test1.spec
+14:25:19.011 Spec file added / modified: C:\Users\lktr\CMStesting\specs\test1.spec
+10:24:40.621 Unable to send analytics data, timed out
+11:02:57.585 Spec file removed: C:\Users\lktr\CMStesting\specs\test1.spec
+11:02:57.588 Spec file added / modified: C:\Users\lktr\CMStesting\specs\test1.spec
+11:03:12.783 Spec file removed: C:\Users\lktr\CMStesting\specs\test1.spec
+11:03:12.785 Spec file added / modified: C:\Users\lktr\CMStesting\specs\test1.spec
+11:04:41.267 Spec file removed: C:\Users\lktr\CMStesting\specs\test1.spec
+11:04:41.272 Spec file added / modified: C:\Users\lktr\CMStesting\specs\test1.spec
+11:06:00.055 Watching directory: C:\Users\lktr\CMStesting\specs
+11:06:00.056 Found 2 files
+11:06:00.072 Initializing concepts cache with 0 concepts
+11:06:00.078 Initializing specs cache with 2 specs
+11:06:00.078 Adding specs from C:\Users\lktr\CMStesting\specs\test1.spec
+11:06:00.078 Adding specs from C:\Users\lktr\CMStesting\specs\example.spec
+11:06:00.078 Initializing steps cache with 2 steps
+11:06:00.078 Gauge daemon initialized and listening on port: 58788
+11:06:18.365 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Signup" hasInlineTable:true > 
+11:06:18.366 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Signup {}" parameterizedStepValue:"Signup <table>" parameters:"table" > > 
+11:06:18.369 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Open Airways website \"Qatar_URL\"" > 
+11:06:18.369 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Open Airways website {}" parameterizedStepValue:"Open Airways website <Qatar_URL>" parameters:"Qatar_URL" > > 
+11:06:19.192 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Open Airways website <Qatar_URL>" > 
+11:06:19.193 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Open Airways website {}" parameterizedStepValue:"Open Airways website <Qatar_URL>" parameters:"Qatar_URL" > > 
+11:06:19.194 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Signup" > 
+11:06:19.194 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Signup" parameterizedStepValue:"Signup" > > 
+11:06:19.218 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Vowels in English language are <vowelString>." > 
+11:06:19.220 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <vowelString>." parameters:"vowelString" > > 
+11:06:19.226 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Vowels in English language are <vowelString>." > 
+11:06:19.227 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <vowelString>." parameters:"vowelString" > > 
+11:06:19.228 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Vowels in English language are <vowelString>." > 
+11:06:19.230 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <vowelString>." parameters:"vowelString" > > 
+11:06:19.234 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Vowels in English language are <vowelString>." > 
+11:06:19.234 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <vowelString>." parameters:"vowelString" > > 
+11:06:19.235 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Vowels in English language are <vowelString>." > 
+11:06:19.237 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <vowelString>." parameters:"vowelString" > > 
+11:06:19.238 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"The word <word> has <expectedCount> vowels." > 
+11:06:19.238 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <word> has <expectedCount> vowels." parameters:"word" parameters:"expectedCount" > > 
+11:06:19.239 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"The word <word> has <expectedCount> vowels." > 
+11:06:19.239 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <word> has <expectedCount> vowels." parameters:"word" parameters:"expectedCount" > > 
+11:06:19.243 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"The word <word> has <expectedCount> vowels." > 
+11:06:19.250 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <word> has <expectedCount> vowels." parameters:"word" parameters:"expectedCount" > > 
+11:06:19.253 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"The word <word> has <expectedCount> vowels." > 
+11:06:19.265 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <word> has <expectedCount> vowels." parameters:"word" parameters:"expectedCount" > > 
+11:06:19.266 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Almost all words have vowels <wordsTable>" > 
+11:06:19.266 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <wordsTable>" parameters:"wordsTable" > > 
+11:06:19.268 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Almost all words have vowels <wordsTable>" > 
+11:06:19.269 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <wordsTable>" parameters:"wordsTable" > > 
+11:06:19.270 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Almost all words have vowels <wordsTable>" > 
+11:06:19.272 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <wordsTable>" parameters:"wordsTable" > > 
+11:06:19.276 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"The word <word> has <expectedCount> vowels." > 
+11:06:19.278 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <word> has <expectedCount> vowels." parameters:"word" parameters:"expectedCount" > > 
+11:06:19.283 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Almost all words have vowels <wordsTable>" > 
+11:06:19.283 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <wordsTable>" parameters:"wordsTable" > > 
+11:06:33.235 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Almost all words have vowels" hasInlineTable:true > 
+11:06:33.235 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <table>" parameters:"table" > > 
+11:06:33.269 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Vowels in English language are \"aeiou\"." > 
+11:06:33.288 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <aeiou>." parameters:"aeiou" > > 
+11:06:33.305 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"The word \"gauge\" has \"3\" vowels." > 
+11:06:33.314 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <gauge> has <3> vowels." parameters:"gauge" parameters:"3" > > 
+11:33:58.296 Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+11:33:58.298 Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <table>" parameters:"table" > allSteps:<stepValue:"Open Airways website {}" parameterizedStepValue:"Open Airways website <Qatar_URL>" parameters:"Qatar_URL" > allSteps:<stepValue:"Signup {}" parameterizedStepValue:"Signup <table>" parameters:"table" > allSteps:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <aeiou>." parameters:"aeiou" > allSteps:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <gauge> has <3> vowels." parameters:"gauge" parameters:"3" > > 
+11:33:58.316 Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+11:33:58.316 Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+11:33:58.523 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Signup1" hasInlineTable:true > 
+11:33:58.524 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Signup1 {}" parameterizedStepValue:"Signup1 <table>" parameters:"table" > > 
+11:33:58.532 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Signup1" hasInlineTable:true > 
+11:33:58.532 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Signup1 {}" parameterizedStepValue:"Signup1 <table>" parameters:"table" > > 
+11:33:58.537 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Signup1" hasInlineTable:true > 
+11:33:58.537 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Signup1 {}" parameterizedStepValue:"Signup1 <table>" parameters:"table" > > 
+11:33:59.494 Spec file removed: C:\Users\lktr\CMStesting\specs\test1.spec
+11:33:59.496 Spec file added / modified: C:\Users\lktr\CMStesting\specs\test1.spec
+12:54:47.683 Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+12:54:47.683 Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <gauge> has <3> vowels." parameters:"gauge" parameters:"3" > allSteps:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <table>" parameters:"table" > allSteps:<stepValue:"Open Airways website {}" parameterizedStepValue:"Open Airways website <Qatar_URL>" parameters:"Qatar_URL" > allSteps:<stepValue:"Signup1 {}" parameterizedStepValue:"Signup1 <table>" parameters:"table" > allSteps:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <aeiou>." parameters:"aeiou" > > 
+12:54:47.683 Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+12:54:47.683 Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+12:54:47.842 Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+12:54:47.842 Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"Open Airways website {}" parameterizedStepValue:"Open Airways website <Qatar_URL>" parameters:"Qatar_URL" > allSteps:<stepValue:"Signup1 {}" parameterizedStepValue:"Signup1 <table>" parameters:"table" > allSteps:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <aeiou>." parameters:"aeiou" > allSteps:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <gauge> has <3> vowels." parameters:"gauge" parameters:"3" > allSteps:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <table>" parameters:"table" > > 
+12:54:47.842 Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+12:54:47.842 Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+12:54:47.972 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Signup1 fo" hasInlineTable:true > 
+12:54:47.973 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Signup1 fo {}" parameterizedStepValue:"Signup1 fo <table>" parameters:"table" > > 
+12:54:47.973 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Signup1 fo" hasInlineTable:true > 
+12:54:47.973 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Signup1 fo {}" parameterizedStepValue:"Signup1 fo <table>" parameters:"table" > > 
+12:54:47.974 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Signup1 fo" hasInlineTable:true > 
+12:54:47.975 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Signup1 fo {}" parameterizedStepValue:"Signup1 fo <table>" parameters:"table" > > 
+12:54:48.248 Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+12:54:48.248 Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"Open Airways website {}" parameterizedStepValue:"Open Airways website <Qatar_URL>" parameters:"Qatar_URL" > allSteps:<stepValue:"Signup1 {}" parameterizedStepValue:"Signup1 <table>" parameters:"table" > allSteps:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <aeiou>." parameters:"aeiou" > allSteps:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <gauge> has <3> vowels." parameters:"gauge" parameters:"3" > allSteps:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <table>" parameters:"table" > > 
+12:54:48.249 Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+12:54:48.249 Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+12:54:48.298 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Signup1 for" hasInlineTable:true > 
+12:54:48.299 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Signup1 for {}" parameterizedStepValue:"Signup1 for <table>" parameters:"table" > > 
+12:54:48.299 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Signup1 for" hasInlineTable:true > 
+12:54:48.299 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Signup1 for {}" parameterizedStepValue:"Signup1 for <table>" parameters:"table" > > 
+12:54:48.300 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Signup1 for" hasInlineTable:true > 
+12:54:48.301 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Signup1 for {}" parameterizedStepValue:"Signup1 for <table>" parameters:"table" > > 
+12:54:49.010 Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+12:54:49.010 Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <gauge> has <3> vowels." parameters:"gauge" parameters:"3" > allSteps:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <table>" parameters:"table" > allSteps:<stepValue:"Open Airways website {}" parameterizedStepValue:"Open Airways website <Qatar_URL>" parameters:"Qatar_URL" > allSteps:<stepValue:"Signup1 {}" parameterizedStepValue:"Signup1 <table>" parameters:"table" > allSteps:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <aeiou>." parameters:"aeiou" > > 
+12:54:49.010 Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+12:54:49.010 Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+12:54:49.191 Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+12:54:49.191 Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"Open Airways website {}" parameterizedStepValue:"Open Airways website <Qatar_URL>" parameters:"Qatar_URL" > allSteps:<stepValue:"Signup1 {}" parameterizedStepValue:"Signup1 <table>" parameters:"table" > allSteps:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <aeiou>." parameters:"aeiou" > allSteps:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <gauge> has <3> vowels." parameters:"gauge" parameters:"3" > allSteps:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <table>" parameters:"table" > > 
+12:54:49.191 Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+12:54:49.191 Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+12:54:49.270 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Signup1 for La" hasInlineTable:true > 
+12:54:49.271 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Signup1 for La {}" parameterizedStepValue:"Signup1 for La <table>" parameters:"table" > > 
+12:54:49.612 Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+12:54:49.612 Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <table>" parameters:"table" > allSteps:<stepValue:"Open Airways website {}" parameterizedStepValue:"Open Airways website <Qatar_URL>" parameters:"Qatar_URL" > allSteps:<stepValue:"Signup1 {}" parameterizedStepValue:"Signup1 <table>" parameters:"table" > allSteps:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <aeiou>." parameters:"aeiou" > allSteps:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <gauge> has <3> vowels." parameters:"gauge" parameters:"3" > > 
+12:54:49.612 Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+12:54:49.612 Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+12:54:49.624 Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+12:54:49.624 Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <gauge> has <3> vowels." parameters:"gauge" parameters:"3" > allSteps:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <table>" parameters:"table" > allSteps:<stepValue:"Open Airways website {}" parameterizedStepValue:"Open Airways website <Qatar_URL>" parameters:"Qatar_URL" > allSteps:<stepValue:"Signup1 {}" parameterizedStepValue:"Signup1 <table>" parameters:"table" > allSteps:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <aeiou>." parameters:"aeiou" > > 
+12:54:49.624 Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+12:54:49.624 Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+12:54:49.727 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Signup1 for Last" hasInlineTable:true > 
+12:54:49.728 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Signup1 for Last {}" parameterizedStepValue:"Signup1 for Last <table>" parameters:"table" > > 
+12:54:50.332 Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+12:54:50.332 Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <gauge> has <3> vowels." parameters:"gauge" parameters:"3" > allSteps:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <table>" parameters:"table" > allSteps:<stepValue:"Open Airways website {}" parameterizedStepValue:"Open Airways website <Qatar_URL>" parameters:"Qatar_URL" > allSteps:<stepValue:"Signup1 {}" parameterizedStepValue:"Signup1 <table>" parameters:"table" > allSteps:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <aeiou>." parameters:"aeiou" > > 
+12:54:50.332 Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+12:54:50.332 Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+12:54:50.398 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Signup1 for Lastna" hasInlineTable:true > 
+12:54:50.398 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Signup1 for Lastna {}" parameterizedStepValue:"Signup1 for Lastna <table>" parameters:"table" > > 
+12:54:50.718 Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+12:54:50.718 Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"Open Airways website {}" parameterizedStepValue:"Open Airways website <Qatar_URL>" parameters:"Qatar_URL" > allSteps:<stepValue:"Signup1 {}" parameterizedStepValue:"Signup1 <table>" parameters:"table" > allSteps:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <aeiou>." parameters:"aeiou" > allSteps:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <gauge> has <3> vowels." parameters:"gauge" parameters:"3" > allSteps:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <table>" parameters:"table" > > 
+12:54:50.718 Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+12:54:50.718 Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+12:54:50.780 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Signup1 for Lastname" hasInlineTable:true > 
+12:54:50.780 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Signup1 for Lastname {}" parameterizedStepValue:"Signup1 for Lastname <table>" parameters:"table" > > 
+12:54:54.391 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Signup1 for" > 
+12:54:54.391 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Signup1 for" parameterizedStepValue:"Signup1 for" > > 
+12:54:57.458 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Signup1 for <Lastname>" hasInlineTable:true > 
+12:54:57.458 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Signup1 for {} {}" parameterizedStepValue:"Signup1 for <Lastname> <table>" parameters:"Lastname" parameters:"table" > > 
+12:55:01.324 Spec file removed: C:\Users\lktr\CMStesting\specs\test1.spec
+12:55:01.325 Spec file added / modified: C:\Users\lktr\CMStesting\specs\test1.spec
+12:55:13.013 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Signup1 for  <table>" > 
+12:55:13.013 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Signup1 for  {}" parameterizedStepValue:"Signup1 for  <table>" parameters:"table" > > 
+12:55:13.529 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Signup1 for <> <table>" > 
+12:55:13.529 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Signup1 for {} {}" parameterizedStepValue:"Signup1 for <> <table>" parameters:"" parameters:"table" > > 
+12:55:15.181 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Signup1 for <La> <table>" > 
+12:55:15.181 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Signup1 for {} {}" parameterizedStepValue:"Signup1 for <La> <table>" parameters:"La" parameters:"table" > > 
+12:55:15.642 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Signup1 for <Last> <table>" > 
+12:55:15.643 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Signup1 for {} {}" parameterizedStepValue:"Signup1 for <Last> <table>" parameters:"Last" parameters:"table" > > 
+12:55:16.209 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Signup1 for <Lastnam> <table>" > 
+12:55:16.209 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Signup1 for {} {}" parameterizedStepValue:"Signup1 for <Lastnam> <table>" parameters:"Lastnam" parameters:"table" > > 
+12:55:50.537 Spec file removed: C:\Users\lktr\CMStesting\specs\test1.spec
+12:55:50.538 Spec file added / modified: C:\Users\lktr\CMStesting\specs\test1.spec
+12:56:35.670 Spec file removed: C:\Users\lktr\CMStesting\specs\test1.spec
+12:56:35.671 Spec file added / modified: C:\Users\lktr\CMStesting\specs\test1.spec
+13:01:16.923 Spec file removed: C:\Users\lktr\CMStesting\specs\test1.spec
+13:01:16.924 Spec file added / modified: C:\Users\lktr\CMStesting\specs\test1.spec
+13:01:37.446 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Signup1 for <Lastname>" > 
+13:01:37.446 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Signup1 for {}" parameterizedStepValue:"Signup1 for <Lastname>" parameters:"Lastname" > > 
+13:01:39.269 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Signup for <Lastname>" > 
+13:01:39.269 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Signup for {}" parameterizedStepValue:"Signup for <Lastname>" parameters:"Lastname" > > 
+13:01:39.616 Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+13:01:39.616 Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"Open Airways website {}" parameterizedStepValue:"Open Airways website <Qatar_URL>" parameters:"Qatar_URL" > allSteps:<stepValue:"Signup1 for {} {}" parameterizedStepValue:"Signup1 for <Lastname> <table>" parameters:"Lastname" parameters:"table" > allSteps:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <aeiou>." parameters:"aeiou" > allSteps:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <gauge> has <3> vowels." parameters:"gauge" parameters:"3" > allSteps:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <table>" parameters:"table" > > 
+13:01:39.617 Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+13:01:39.617 Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+13:01:39.671 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Signup2 for <Lastname>" > 
+13:01:39.671 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Signup2 for {}" parameterizedStepValue:"Signup2 for <Lastname>" parameters:"Lastname" > > 
+13:01:39.672 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Signup2 for <Lastname>" > 
+13:01:39.672 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Signup2 for {}" parameterizedStepValue:"Signup2 for <Lastname>" parameters:"Lastname" > > 
+13:01:40.508 Spec file removed: C:\Users\lktr\CMStesting\specs\test1.spec
+13:01:40.509 Spec file added / modified: C:\Users\lktr\CMStesting\specs\test1.spec
+13:01:42.725 Spec file removed: C:\Users\lktr\CMStesting\specs\test1.spec
+13:01:42.726 Spec file added / modified: C:\Users\lktr\CMStesting\specs\test1.spec
+13:01:54.795 Spec file removed: C:\Users\lktr\CMStesting\specs\test1.spec
+13:01:54.796 Spec file added / modified: C:\Users\lktr\CMStesting\specs\test1.spec
+13:01:55.101 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Signup2 for <Lastname>" hasInlineTable:true > 
+13:01:55.101 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Signup2 for {} {}" parameterizedStepValue:"Signup2 for <Lastname> <table>" parameters:"Lastname" parameters:"table" > > 
+13:02:02.666 Spec file removed: C:\Users\lktr\CMStesting\specs\test1.spec
+13:02:02.667 Spec file added / modified: C:\Users\lktr\CMStesting\specs\test1.spec
+13:03:32.101 Spec file removed: C:\Users\lktr\CMStesting\specs\test1.spec
+13:03:32.102 Spec file added / modified: C:\Users\lktr\CMStesting\specs\test1.spec
+13:03:44.199 Spec file removed: C:\Users\lktr\CMStesting\specs\test1.spec
+13:03:44.201 Spec file added / modified: C:\Users\lktr\CMStesting\specs\test1.spec
+13:04:27.151 Watching directory: C:\Users\lktr\CMStesting\specs
+13:04:27.151 Found 2 files
+13:04:27.164 Initializing concepts cache with 0 concepts
+13:04:27.169 Initializing specs cache with 2 specs
+13:04:27.169 Adding specs from C:\Users\lktr\CMStesting\specs\example.spec
+13:04:27.169 Adding specs from C:\Users\lktr\CMStesting\specs\test1.spec
+13:04:27.169 Initializing steps cache with 2 steps
+13:04:27.169 Gauge daemon initialized and listening on port: 60929
+13:04:38.806 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Signup2 for <Lastname>" hasInlineTable:true > 
+13:04:38.807 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Signup2 for {} {}" parameterizedStepValue:"Signup2 for <Lastname> <table>" parameters:"Lastname" parameters:"table" > > 
+13:04:38.817 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Open Airways website \"Qatar_URL\"" > 
+13:04:38.818 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Open Airways website {}" parameterizedStepValue:"Open Airways website <Qatar_URL>" parameters:"Qatar_URL" > > 
+13:04:39.891 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Open Airways website <Qatar_URL>" > 
+13:04:39.891 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Open Airways website {}" parameterizedStepValue:"Open Airways website <Qatar_URL>" parameters:"Qatar_URL" > > 
+13:04:39.906 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Open Airways website <Qatar_URL>" > 
+13:04:39.916 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Open Airways website {}" parameterizedStepValue:"Open Airways website <Qatar_URL>" parameters:"Qatar_URL" > > 
+13:04:39.924 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Signup1 for <Lastname>" hasInlineTable:true > 
+13:04:39.925 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Signup1 for {} {}" parameterizedStepValue:"Signup1 for <Lastname> <table>" parameters:"Lastname" parameters:"table" > > 
+13:04:39.944 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Signup1 for <Lastname> <table>" > 
+13:04:39.946 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Signup1 for {} {}" parameterizedStepValue:"Signup1 for <Lastname> <table>" parameters:"Lastname" parameters:"table" > > 
+13:04:39.946 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Vowels in English language are <vowelString>." > 
+13:04:39.947 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <vowelString>." parameters:"vowelString" > > 
+13:04:39.948 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Vowels in English language are <vowelString>." > 
+13:04:39.949 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <vowelString>." parameters:"vowelString" > > 
+13:04:39.950 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"The word <word> has <expectedCount> vowels." > 
+13:04:39.950 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <word> has <expectedCount> vowels." parameters:"word" parameters:"expectedCount" > > 
+13:04:39.951 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"The word <word> has <expectedCount> vowels." > 
+13:04:39.951 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <word> has <expectedCount> vowels." parameters:"word" parameters:"expectedCount" > > 
+13:04:39.952 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Almost all words have vowels <wordsTable>" > 
+13:04:39.952 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <wordsTable>" parameters:"wordsTable" > > 
+13:04:39.954 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Almost all words have vowels <wordsTable>" > 
+13:04:39.975 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <wordsTable>" parameters:"wordsTable" > > 
+13:06:12.788 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Almost all words have vowels" hasInlineTable:true > 
+13:06:12.788 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <table>" parameters:"table" > > 
+13:06:12.792 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Vowels in English language are \"aeiou\"." > 
+13:06:12.799 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <aeiou>." parameters:"aeiou" > > 
+13:06:12.800 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"The word \"gauge\" has \"3\" vowels." > 
+13:06:12.800 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <gauge> has <3> vowels." parameters:"gauge" parameters:"3" > > 
+13:09:16.645 Spec file removed: C:\Users\lktr\CMStesting\specs\test1.spec
+13:09:16.646 Spec file added / modified: C:\Users\lktr\CMStesting\specs\test1.spec
+13:09:21.017 Spec file removed: C:\Users\lktr\CMStesting\specs\test1.spec
+13:09:21.019 Spec file added / modified: C:\Users\lktr\CMStesting\specs\test1.spec
+13:09:25.866 Spec file removed: C:\Users\lktr\CMStesting\specs\test1.spec
+13:09:25.867 Spec file added / modified: C:\Users\lktr\CMStesting\specs\test1.spec
+13:09:30.566 Spec file removed: C:\Users\lktr\CMStesting\specs\test1.spec
+13:09:30.566 Spec file added / modified: C:\Users\lktr\CMStesting\specs\test1.spec
+15:17:24.280 Watching directory: C:\Users\lktr\CMStesting\specs
+15:17:24.283 Found 2 files
+15:17:24.311 Initializing concepts cache with 0 concepts
+15:17:24.319 Initializing specs cache with 2 specs
+15:17:24.319 Adding specs from C:\Users\lktr\CMStesting\specs\example.spec
+15:17:24.319 Adding specs from C:\Users\lktr\CMStesting\specs\test1.spec
+15:17:24.319 Initializing steps cache with 2 steps
+15:17:24.319 Gauge daemon initialized and listening on port: 62985
+15:17:45.422 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Open Airways website \"Qatar_URL\"" > 
+15:17:45.423 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Open Airways website {}" parameterizedStepValue:"Open Airways website <Qatar_URL>" parameters:"Qatar_URL" > > 
+15:17:47.013 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Vowels in English language are <vowelString>." > 
+15:17:47.013 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <vowelString>." parameters:"vowelString" > > 
+15:17:47.015 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"The word <word> has <expectedCount> vowels." > 
+15:17:47.015 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <word> has <expectedCount> vowels." parameters:"word" parameters:"expectedCount" > > 
+15:17:47.016 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Almost all words have vowels <wordsTable>" > 
+15:17:47.016 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <wordsTable>" parameters:"wordsTable" > > 
+15:17:47.018 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Open Airways website <Qatar_URL>" > 
+15:17:47.018 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Open Airways website {}" parameterizedStepValue:"Open Airways website <Qatar_URL>" parameters:"Qatar_URL" > > 
+15:17:47.041 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Signup1 for <Lastname>" hasInlineTable:true > 
+15:17:47.042 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Signup1 for {} {}" parameterizedStepValue:"Signup1 for <Lastname> <table>" parameters:"Lastname" parameters:"table" > > 
+15:17:47.068 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Signup2 for <Lastname>" hasInlineTable:true > 
+15:17:47.068 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Signup2 for {} {}" parameterizedStepValue:"Signup2 for <Lastname> <table>" parameters:"Lastname" parameters:"table" > > 
+16:10:00.435 Watching directory: C:\Users\lktr\CMStesting\specs
+16:10:00.436 Found 2 files
+16:10:00.460 Initializing concepts cache with 0 concepts
+16:10:00.468 Initializing specs cache with 2 specs
+16:10:00.469 Adding specs from C:\Users\lktr\CMStesting\specs\test1.spec
+16:10:00.469 Adding specs from C:\Users\lktr\CMStesting\specs\example.spec
+16:10:00.469 Initializing steps cache with 2 steps
+16:10:00.469 Gauge daemon initialized and listening on port: 63831
